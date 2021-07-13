@@ -17,7 +17,7 @@ print('\n')
 with open('keyfile.key', 'wb') as keyfile:
     keyfile.write(key)
     keyfile.close()
-print('Your file key has been saved to a file called keyfile.key.\nI do this so I can read the key in this file to encrypt and decrypt your data.')
+print('Your file key has also been saved to a file called keyfile.key.\nI do this so I can read the key in this file later to encrypt and decrypt your data.')
 print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
 print('\n')
 
